@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const db = mysql.createPool({
-  host: 'localhost',
+  host: 'containers-us-west-192.railway.app',
   user: 'root',
-  password: '',
-  database: 'rest_api_nodejs'
+  password: '6qwMfSO7EFLvyrxm1tQZ',
+  database: 'railway'
 });
 
 exports.db = db;
